@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import web3 from '../web3';
+import web3 from './web3';
+import lottery from './lottery';
 
 function App() {
 
-  cons
+  console.log(web3.version)
+  web3.eth.getAccounts().then(console.log);
+  
 
   return (
     <div className="App">

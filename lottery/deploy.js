@@ -1,0 +1,3 @@
+const HDWalletProvider = require('truffle')
+
+
