@@ -18,6 +18,10 @@ class App extends Component {
     const manager = await chainlink.methods.getLatestPrice().call();
     //const balance = await web3.eth.getBalance(chainlink.options.address);
     this.setState({manager});
+
+    
+
+
   }
   
   // onSubmit = async(event) => {
